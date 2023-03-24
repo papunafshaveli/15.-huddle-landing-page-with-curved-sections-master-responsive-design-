@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@600&display=swap');
+
+body{
+    position: relative;
+    width: 375px;
+    margin: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.logo{
+
+    width: 96px;
+    height: 16px;
+    margin-top: 28px;
+    margin-left: 24px;
+}
+
+.headerbutton{
+    position: absolute;
+    width: 80px;
+    height: 23.53px;
+    margin-left: 151px;
+    margin-top: 24px;
+    background-color: white;
+    color: #FF52C1;
+    border-color: #FF52C1;
+    border-radius: 11.76px;
+    border-style: solid;
+    border-width: 0.5px;
+    font-family: 'Open Sans';
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.mainh1{
+    margin-top: 116px;
+    margin-left: 48px;
+    width: 280px;
+    color: #00252E;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+
+
+}
+
+.mainp{
+    margin-top: 24px;
+    margin-left: 40px;
+    margin-bottom: 48px;
+    width: 296px;
+    color: #00252E;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.mainbutton{
+    margin-left: 88px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px; 
+    border: none;
+    background-color: #FF52C1;
+    color: white;   
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+
+
+}
+
+.screen{
+    width: 286.21px;
+    margin-top: 104px;
+    margin-left: 40px;
+}
+
+.statistic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 126px;
+}
+
+.statisticicon{
+    height: 26.105281829833984px;
+    width: 29.206348419189453px;
+    
+
+}
+
+.statistih2{
+width: 160px;
+color: #00252E;
+font-family: 'Open Sans';
+font-size: 61px;
+font-weight: 700;
+line-height: 91px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.statisticp{
+color: #808E9A;
+font-family: 'Open Sans';
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.statistic2{
+    margin-top: 90px;
+}
+
+section{
+    margin-top: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mainmassagepicture{
+    width: 267px;
+    margin-left: 30px;
+    margin-bottom: 74px;
+}
+
+.mainmessageh2{
+    margin-bottom: 16px;
+    color: #00252E;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+.mainmassagep{
+    margin-bottom: 245px;
+    width: 320px;
+    color: #00252E;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.mainh3{
+    margin-top: 39px;
+    margin-bottom: 40px;
+    color: #00252E;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.topform{
+    margin-top: -53px;
+}
+
+.topformdesktop{
+    display: none;
+}
+
+footer{
+    margin-top: 251px;
+    width: 375px;
+    height: 792px;
+    background-color: #00252E;
+}
+
+.footerh3{
+    margin-left: 28px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;   
+
+}
+
+.footerp1{
+    margin-left: 28px;
+    width: 320px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.footerp2{
+    margin-left: 28px;
+    width: 320px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.footerinput{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    height: 48px;
+    width: 310px;
+    margin-left: 28px;
+    border-radius: 6px;
+
+}
+
+.footerbutton{
+    margin-left: 188px;
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF52C1;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+
+}
+
+.logo2{
+    width: 200px;
+    height: 32px;
+    margin-top: 104px;
+    margin-bottom: 16px;
+    margin-left: -10px;
+}
+
+.phone{
+    margin-top: 43px;
+    margin-left: 28px;
+
+}
+
+.phonespan{
+    margin-left: 23px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.email{
+    display: block;
+    margin-top: 16px;
+    margin-left: 28px;
+}
+
+.emailspan{
+    position: absolute;
+    margin-left: 71px;
+    margin-top: -20px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.socialmedia{
+    display: flex;
+    margin-left: 28px;
+    margin-top: 54px;
+    gap: 18px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    body{
+        position: relative;
+        width: 1440px;
+        margin: auto;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    .logo{
+    
+        width: 240px;
+        height: 58px;
+        margin-top: 79px;
+        margin-left: 80px;
+    }
+    
+    .headerbutton{
+        position: absolute;
+        width: 136px;
+        height: 40px;
+        margin-left: 921px;
+        margin-top: 78px;
+        background-color: white;
+        color: #FF8ED7;
+        border-color: #FF52C1;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+    
+    .mainh1{
+        margin-top: 226px;
+        margin-left: 215px;
+        width: 1014px;
+        color: #00252E;
+        font-family: 'Poppins';
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    
+    
+    }
+    
+    .mainp{
+        margin-top: 26px;
+        margin-left: 420px;
+        margin-bottom: 49px;
+        width: 600px;
+        color: #00252E;
+        font-family: 'Open Sans';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    
+    }
+    
+    .mainbutton{
+        margin-left: 520px;
+        height: 80px;
+        width: 400px;
+        border-radius: 40px; 
+        border: none;
+        background-color: #FF52C1;
+        color: white;   
+        font-family: 'Open Sans';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    
+    
+    }
+    
+    .screen{
+        width: 960px;
+        margin-top: 120px;
+        margin-left: 212px;
+    }
+    
+    .statistic{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 123px;
+        gap: 341px;
+    }
+    
+    .statisticicon{
+        height: 50px;
+        width: 49px;
+        
+    
+    }
+    
+    .statistih2{
+    width: 252px;
+    color: #00252E;
+    font-family: 'Open Sans';
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 144px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    }
+    
+    .statisticp{
+    color: #808E9A;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    
+    }
+    
+    .statistic2{
+        margin-top: 0;
+    }
+    
+    section{
+        position: relative;
+        margin-left: 0;
+        margin-top: 366px;
+        display: flex;
+        flex-direction: column;
+        gap: 379px;
+    }
+    
+    
+    .mainmassagepicture{
+        width: 517px;
+        margin-left: 121px;
+        margin-bottom: 0;
+    }
+    
+    .mainmessageh2{
+        margin-top: 100px;
+        margin-right: 690px;
+        position: absolute;
+        width: 471px;
+        color: #00252E;
+        font-family: 'Poppins';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    
+    }
+    .mainmassagep{
+        margin-top: 185px;
+        margin-bottom: 0;
+        width: 520px;
+        color: #00252E;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    
+    }
+
+    .one, .two, .three{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .mainh3{
+        margin-top: 336px;
+        margin-bottom: 42px;
+        color: #00252E;
+        font-family: 'Poppins';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    
+    }
+    
+    .topform{
+        display: none;
+    }
+
+    .topformdesktop{
+        display: block;
+        position: absolute;
+        margin-top: -155px;
+    }
+    
+    footer{
+        position: relative;
+        margin-top: 336px;
+        width: 1440px;
+        height: 562px;
+        background-color: #00252E;
+        background-position: bottom;
+    }
+    
+    .footerh3{
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 122px;
+        margin-bottom: 0;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0px;
+        text-align: left;
+   
+    
+    }
+    
+    .footerp1{
+        
+        position: absolute;
+        margin-top: 164px;
+        margin-left: 800px;
+        width: 344px;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    
+    }
+
+    .footerp2{
+        position: absolute;
+        margin-top: 164px;
+        margin-left: 120px;
+        width: 340px;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+    
+    }
+    
+    .footerinput{
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 286px;
+        margin-bottom: 0;
+        height: 48px;
+        width: 320px;
+        border-radius: 6px;
+    
+    }
+    
+    .footerbutton{
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 1160px;
+        width: 160px;
+        height: 48px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: #FF52C1;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+    
+    
+    }
+    
+    .logo2{
+        position: absolute;
+        width: 240px;
+        height: 38px;
+        margin-top: 122px;
+        margin-bottom: 0;
+        margin-left: 120px;
+    }
+    
+    .phone{
+        margin-top: 286px;
+        margin-left: 120px;
+    
+    }
+    
+    .phonespan{
+        margin-left: 23px;
+        color: white;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+    
+    }
+    
+    .email{
+        display: block;
+        margin-top: 19px;
+        margin-left: 120px;
+    }
+    
+    .emailspan{
+        position: absolute;
+        margin-left: 160px;
+        margin-top: -20px;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+    
+    }
+    
+    .socialmedia{
+        display: flex;
+        margin-left: 120px;
+        margin-top: 80px;
+        gap: 24px;
+    }
+}
